@@ -1,0 +1,138 @@
+@font-face {
+  font-family: 'Brandon Text';
+  src: url(../../../dist/brandon-text.woff2) format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.looksDiv {
+  margin-bottom: 15px;
+  padding: 0 5%;
+  position: relative;
+}
+
+.looksText {
+  margin-right:20px;
+  font-weight: 700;
+}
+
+.moreLooks {
+  font-size: 15px;
+  color: #393939;
+}
+
+.componentContainer {
+  display: flex;
+  flex-direction: row;
+  padding-left: 5%;
+  padding-right: 15%;
+  position: relative;
+  /* padding-right: 50px; */
+  font-family: 'Brandon Text';
+}
+
+.borderBox {
+  border: 1px solid #e3e3e3;
+  padding: 15px;
+  min-height: 350px;
+  max-width: 1140px;
+  min-width: 450px;
+  margin-bottom: 10%;
+  width: 35%;
+  display: inline-block;
+  position: relative;
+}
+
+.outfitNameContainer {
+  text-align: center;
+  color: #393939;
+  border-bottom: 1px solid #e3e3e3;
+}
+
+.outfitNameText {
+  padding-top: 10px;
+  padding-bottom: 20px;
+  font-size: 17px;
+}
+
+.nordstromLink {
+  text-align: center;
+  color: #393939;
+  font-size: 13px;
+}
+a:visited {
+  color: #393939;
+}
+
+.gridContainer {
+  display: inline-grid;
+  grid-template-columns: 24% 46.5% 29.5%;
+  justify-content: space-around;
+  border-bottom: 1px solid #e3e3e3;
+  padding: 5%;
+}
+
+.item {
+  margin-top: 40px;
+  font-size: 13px;
+}
+
+.bottomBox {
+  padding-top: 13px;
+}
+
+.svg {
+  padding: 15px;
+  color: #393939;
+  display: none;
+}
+
+.svg:hover {
+  display: block;
+}
+.svgplace {
+  display:none;
+
+}
+
+.randomLikes {
+  float: right;
+  color: #393939;
+  font-size: 13px;
+}
+
+.designerName {
+  margin: 5%;
+  text-align: center;
+  color: #393939;
+  font-size: 14px;
+}
+
+.secondComponent {
+  display: flex;
+  flex-direction: row;
+}
+
+.modal {
+  /* flex-direction: row; */
+  display: inline-block;
+  padding-right: 100px;
+  max-width:1151px;
+  min-width:620px;
+  min-height:350px;
+  position: relative;
+  /* padding-right: 20%; */
+
+}
+
+.firstComponent {
+  border: 1px solid black;
+  padding: 10px;
+  float: left;
+}
+
+.secondComponent {
+  border: 1px solid black;
+  /* padding: 10px; */
+  float: right;
+}

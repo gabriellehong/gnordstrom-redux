@@ -1,0 +1,30 @@
+.carouselWrapper {
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.dressImage {
+  object-fit: cover;
+  bottom: 50%;
+}
+
+.backButton {
+  position: absolute;
+  top: 50%;
+  left: 0px;
+}
+
+.svgForwardButton {
+  transform: rotate(180deg);
+  margin-top: 15px;
+}
+
+.dressPrice {
+  text-align: center;
+  font-weight: 700;
+}

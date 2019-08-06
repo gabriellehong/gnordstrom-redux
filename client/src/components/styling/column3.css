@@ -1,0 +1,43 @@
+
+.carouselForwardButton {
+  transform: rotate(180deg);
+}
+
+.carouselWrapper {
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.image {
+  object-fit: cover;
+  width: 90%;
+  max-height: 100%;
+  display: block;
+  margin-left: 10%;
+}
+
+.backButton {
+  position: absolute;
+  top: 50%;
+  left: 0px;
+}
+
+.svgForwardButton {
+  transform: rotate(180deg);
+  position: absolute;
+  top: 50%;
+  right: 0px;
+}
+
+.price {
+  position: relative;
+  /* top: -20px; */
+  top: 50%;
+  text-align: center;
+  font-weight: 700;
+}
