@@ -8,7 +8,6 @@ const server = express();
 const port = process.env.port || 3003;
 
 
-// server.use(morgan('dev'))
 server.use(parser.json())
 server.use(parser.urlencoded({extended: true}))
 
